@@ -1,5 +1,12 @@
 #include <stdio.h>
 #include <math.h>
+ ////Global variables///
+float A, B, C;
+float cubeWidth;
+int width = 160, height = 45;
+float zBuffer[width * height];
+char buffer[width * height];
+int backgoundASCIIcode = ' ';
 
 float calculateZ(int i , int j , int k)
 {
@@ -19,6 +26,5 @@ float calculateX(int i, int j, int k)
 
 int main(void)
 {
-
     return (0);
 }
